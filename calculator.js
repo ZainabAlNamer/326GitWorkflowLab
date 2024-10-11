@@ -38,7 +38,7 @@ function cosine(value) {
 
 // TODO: Implement tangent function
 function tangent(value) {
-    return Math.tan(value * (Math.PI / 180));
+    return Math.tan(value);
 }
 
 
