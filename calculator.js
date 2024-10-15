@@ -10,7 +10,7 @@ function calculateSquareRoot(value) {
 function calculateSquare(value) {
     // Hint: Use exponentiation
     // return the square root of the value
-
+    return value ** 2; 
 }
 
 // BUG: FIX reciprocal function
@@ -24,7 +24,6 @@ function calculateReciprocal(value) {
 // TODO: Implement natural log function
 function naturalLog(value) {
     // return the natural log of the value
-    return Math.log(value);
 }
 
 // TODO: Implement sine function
@@ -41,8 +40,6 @@ function cosine(value) {
 function tangent(value) {
     // return the tangent of the value
 }
-
-
 
 
 module.exports = {
