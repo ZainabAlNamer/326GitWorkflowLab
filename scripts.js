@@ -1,6 +1,5 @@
 
 let display = document.getElementById('display');
-let memoryVal = 0;
 
 // Append number or operator to the display
 function appendToDisplay(value) {
@@ -68,9 +67,5 @@ function runCosine() {
 function runTangent() {
     const v = tangent(display.value); 
     display.value = v;
-}
-
-function memoryStore() {
-    memoryVal = display.value;
 }
 
