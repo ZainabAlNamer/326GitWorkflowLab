@@ -1,6 +1,7 @@
 
 let display = document.getElementById('display');
 let memoryVal = 0;
+let memoryDisplay = document.getElementById('memoryDisplay');
 
 // Append number or operator to the display
 function appendToDisplay(value) {
@@ -72,5 +73,6 @@ function runTangent() {
 
 function memoryStore() {
     memoryVal = display.value;
+    memoryDisplay.value = memoryVal;
 }
 
