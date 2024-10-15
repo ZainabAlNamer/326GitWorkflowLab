@@ -76,3 +76,13 @@ function memoryStore() {
     memoryDisplay.value = memoryVal;
 }
 
+function memoryRecall() {
+    display.value = memoryVal;
+
+}
+
+function memoryClear() {
+    memoryVal = 0;
+    memoryDisplay.value = memoryVal;
+ }
+ 
